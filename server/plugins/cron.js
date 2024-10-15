@@ -250,7 +250,7 @@ export default fp(async (fastify) => {
   }
 }`;
         try {
-            const result = await axios.post("https://indexer.bigdevenergy.link/ed7db02/v1/graphql", {
+            const result = await axios.post("https://indexer.bigdevenergy.link/10bd058/v1/graphql", {
                 timeout: 10000,
                 query: query,
                 variables: {
