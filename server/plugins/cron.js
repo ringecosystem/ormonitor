@@ -21,7 +21,8 @@ export default fp(async (fastify) => {
         allWarns.push(await checkOperatorBalance());
         allWarns.push(await checkOracleSignerBalance());
         // allWarns.push(await checkOracleSignerSubmition());
-        allWarns.push(await checkTimeoutRelay());
+        // todo after self host envio
+        // allWarns.push(await checkTimeoutRelay());
         allWarns.push(await checkMsgportAPI());
         allWarns.push(await checkPonder());
         fastify.log.warn(allWarns);
