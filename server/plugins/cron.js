@@ -21,8 +21,7 @@ export default fp(async (fastify) => {
         allWarns.push(await checkOperatorBalance());
         allWarns.push(await checkOracleSignerBalance());
         // allWarns.push(await checkOracleSignerSubmition());
-        // todo after self host envio
-        // allWarns.push(await checkTimeoutRelay());
+        allWarns.push(await checkTimeoutRelay());
         allWarns.push(await checkMsgportAPI());
         allWarns.push(await checkPonder());
         fastify.log.warn(allWarns);
@@ -251,7 +250,7 @@ export default fp(async (fastify) => {
   }
 }`;
         try {
-            const result = await axios.post("https://indexer.bigdevenergy.link/10bd058/v1/graphql", {
+            const result = await axios.post("https://indexer.hyperindex.xyz/10bd058/v1/graphql", {
                 timeout: 10000,
                 query: query,
                 variables: {
