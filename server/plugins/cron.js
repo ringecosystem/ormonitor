@@ -230,7 +230,6 @@ export default fp(async (fastify) => {
       blockTimestamp
       channel
       encoded
-      eventsSummary
       from
       fromChainId
       gasLimit
