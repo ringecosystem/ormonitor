@@ -59,7 +59,7 @@ const Chains = [
   {
     "name": "ethereum",
     "id": 1,
-    "endpoint": "https://ethereum.publicnode.com",
+    "endpoint": "https://ethereum-rpc.publicnode.com",
     "contract": {
       "signcribe": "0x57aa601a0377f5ab313c5a955ee874f5d495fc92",
       "relayer": "0x114890eB7386F94eae410186F20968bFAf66142a",
@@ -97,7 +97,7 @@ const Chains = [
   {
     "name": "blast",
     "id": 81457,
-    "endpoint": "https://rpc.blast.io",
+    "endpoint": "https://blast-rpc.publicnode.com",
     "contract": {
       "signcribe": "0x57aa601a0377f5ab313c5a955ee874f5d495fc92",
       "relayer": "0x114890eB7386F94eae410186F20968bFAf66142a",

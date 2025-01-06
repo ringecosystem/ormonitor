@@ -190,13 +190,13 @@ export default fp(async (fastify) => {
     }
 
     async function checkTimeoutRelay() {
-        fastify.log.info("==> checkTimeoutRelay")
         const warns = [];
         const now = Math.floor(Date.now() / 1000);
         const oneDayAgo = now - 24 * 60 * 60;
         // const oneDayAgo = 1719701000;
         const halfHourAgo = now - 30 * 60;
         const oneHourAgo = now - 60 * 60 * 1;
+        fastify.log.info(`==> checkTimeoutRelay: ${oneDayAgo}, ${halfHourAgo}`);
         const query = `query MessageList($timestampGt: numeric!, $timestampLt: numeric!) {
   MessagePort(order_by: {sourceBlockTimestamp: desc},
   	where: {
