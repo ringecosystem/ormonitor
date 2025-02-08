@@ -25,7 +25,7 @@ export default fp(async (fastify) => {
         allWarns.push(await checkMsgportAPI());
         allWarns.push(await checkPonder());
         fastify.log.warn(allWarns);
-        await notify(allWarns, "59154,77764,55181,63157,49833");
+        await notify(allWarns);
     }, {
         timezone: "Asia/Shanghai"
     });
@@ -329,7 +329,7 @@ export default fp(async (fastify) => {
         await axios.get("https://hc-ping.com/5B4xQyjO7c1ReOiZiaS4yQ/ormonitor");
     }
 
-    async function notify(warns, channel) {
+    async function notify(warns) {
         const toNotify = [];
         for (let warnGroup of warns) {
             for (const warn of warnGroup) {
@@ -342,19 +342,12 @@ export default fp(async (fastify) => {
         if (toNotify.length == 0) {
             return;
         }
-        const data = qs.stringify({
-            "title": "ORMonitor",
-            "content": toNotify.join("\r\n"),
-            "channel": channel,
-        });
-        console.log(data);
+        const alertContent = toNotify.join("\r\n");
+        console.log(alertContent);
         const config = {
             "method": "post",
-            "url": "https://api.anpush.com/push/RFLK5BMRC6VN4C13PXWOO2QJ1ANSYI",
-            "headers": {
-                "Content-Type": "application/x-www-form-urlencoded"
-            },
-            data: data,
+            "url": "https://n8n.darwinia.network/webhook/766b2785-7f56-4a0c-8f4d-e22b92d51c60",
+            data: alertContent,
         }
         axios(config)
             .then(function (resp) {
