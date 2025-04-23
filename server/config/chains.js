@@ -7,12 +7,12 @@ const Chains = [
       "signcribe": "0x57aa601a0377f5ab313c5a955ee874f5d495fc92",
       "relayer": "0x114890eB7386F94eae410186F20968bFAf66142a",
       "ormp": "0x13b2211a7cA45Db2808F6dB05557ce5347e3634e",
-      "oracle": "0xBE01B76AB454aE2497aE43168b1F70C92Ac1C726",
-      "multisig": "0x22117Db68370590c1031f52a6D1aDE3DCe0cCf9a"
+      "oracle": "0xB49E82067a54b3E8c5D9Db2f378FdB6892C04D2E",
+      "multisig": "0x855275aC7Ea4cc4F324915b2Eb48839E447E04bD"
     },
     "operator": {
-      "oracle": "0x178E699c9a6bB2Cd624557Fbd85ed219e6faBa77",
-      "relayer": "0x912D7601569cBc2DF8A7f0aaE50BFd18e8C64d05",
+      "oracle": "0xc1A3FEE4132e9285f41F5389570fD9Fbbcb10a1D",
+      "relayer": "0x40C168503B9758540E18A79907F3Fd8678c13f03",
       "warnBalance": 100,
     },
     "symbol": "CRAB",
@@ -26,12 +26,12 @@ const Chains = [
       "signcribe": "0x57aa601a0377f5ab313c5a955ee874f5d495fc92",
       "relayer": "0x114890eB7386F94eae410186F20968bFAf66142a",
       "ormp": "0x13b2211a7cA45Db2808F6dB05557ce5347e3634e",
-      "oracle": "0xBE01B76AB454aE2497aE43168b1F70C92Ac1C726",
-      "multisig": "0x22117Db68370590c1031f52a6D1aDE3DCe0cCf9a"
+      "oracle": "0xB49E82067a54b3E8c5D9Db2f378FdB6892C04D2E",
+      "multisig": "0x855275aC7Ea4cc4F324915b2Eb48839E447E04bD"
     },
     "operator": {
-      "oracle": "0x178E699c9a6bB2Cd624557Fbd85ed219e6faBa77",
-      "relayer": "0x912D7601569cBc2DF8A7f0aaE50BFd18e8C64d05",
+      "oracle": "0xc1A3FEE4132e9285f41F5389570fD9Fbbcb10a1D",
+      "relayer": "0x40C168503B9758540E18A79907F3Fd8678c13f03",
       "warnBalance": 100,
     },
     "symbol": "RING",
@@ -45,12 +45,12 @@ const Chains = [
       "signcribe": "0x57aa601a0377f5ab313c5a955ee874f5d495fc92",
       "relayer": "0x114890eB7386F94eae410186F20968bFAf66142a",
       "ormp": "0x13b2211a7cA45Db2808F6dB05557ce5347e3634e",
-      "oracle": "0xBE01B76AB454aE2497aE43168b1F70C92Ac1C726",
-      "multisig": "0x22117Db68370590c1031f52a6D1aDE3DCe0cCf9a"
+      "oracle": "0xB49E82067a54b3E8c5D9Db2f378FdB6892C04D2E",
+      "multisig": "0x855275aC7Ea4cc4F324915b2Eb48839E447E04bD"
     },
     "operator": {
-      "oracle": "0x178E699c9a6bB2Cd624557Fbd85ed219e6faBa77",
-      "relayer": "0x912D7601569cBc2DF8A7f0aaE50BFd18e8C64d05",
+      "oracle": "0xc1A3FEE4132e9285f41F5389570fD9Fbbcb10a1D",
+      "relayer": "0x40C168503B9758540E18A79907F3Fd8678c13f03",
       "warnBalance": 0.01,
     },
     "symbol": "AETH",
@@ -64,12 +64,12 @@ const Chains = [
       "signcribe": "0x57aa601a0377f5ab313c5a955ee874f5d495fc92",
       "relayer": "0x114890eB7386F94eae410186F20968bFAf66142a",
       "ormp": "0x13b2211a7cA45Db2808F6dB05557ce5347e3634e",
-      "oracle": "0xBE01B76AB454aE2497aE43168b1F70C92Ac1C726",
-      "multisig": "0x22117Db68370590c1031f52a6D1aDE3DCe0cCf9a"
+      "oracle": "0xB49E82067a54b3E8c5D9Db2f378FdB6892C04D2E",
+      "multisig": "0x855275aC7Ea4cc4F324915b2Eb48839E447E04bD"
     },
     "operator": {
-      "oracle": "0x178E699c9a6bB2Cd624557Fbd85ed219e6faBa77",
-      "relayer": "0x912D7601569cBc2DF8A7f0aaE50BFd18e8C64d05",
+      "oracle": "0xc1A3FEE4132e9285f41F5389570fD9Fbbcb10a1D",
+      "relayer": "0x40C168503B9758540E18A79907F3Fd8678c13f03",
       "warnBalance": 0.02,
     },
     "symbol": "ETH",
@@ -83,12 +83,12 @@ const Chains = [
       "signcribe": "0x57aa601a0377f5ab313c5a955ee874f5d495fc92",
       "relayer": "0x114890eB7386F94eae410186F20968bFAf66142a",
       "ormp": "0x13b2211a7cA45Db2808F6dB05557ce5347e3634e",
-      "oracle": "0xBE01B76AB454aE2497aE43168b1F70C92Ac1C726",
-      "multisig": "0x22117Db68370590c1031f52a6D1aDE3DCe0cCf9a"
+      "oracle": "0xB49E82067a54b3E8c5D9Db2f378FdB6892C04D2E",
+      "multisig": "0x855275aC7Ea4cc4F324915b2Eb48839E447E04bD"
     },
     "operator": {
-      "oracle": "0x178E699c9a6bB2Cd624557Fbd85ed219e6faBa77",
-      "relayer": "0x912D7601569cBc2DF8A7f0aaE50BFd18e8C64d05",
+      "oracle": "0xc1A3FEE4132e9285f41F5389570fD9Fbbcb10a1D",
+      "relayer": "0x40C168503B9758540E18A79907F3Fd8678c13f03",
       "warnBalance": 0.1,
     },
     "symbol": "MATIC",
@@ -102,12 +102,12 @@ const Chains = [
       "signcribe": "0x57aa601a0377f5ab313c5a955ee874f5d495fc92",
       "relayer": "0x114890eB7386F94eae410186F20968bFAf66142a",
       "ormp": "0x13b2211a7cA45Db2808F6dB05557ce5347e3634e",
-      "oracle": "0xBE01B76AB454aE2497aE43168b1F70C92Ac1C726",
-      "multisig": "0x22117Db68370590c1031f52a6D1aDE3DCe0cCf9a"
+      "oracle": "0xB49E82067a54b3E8c5D9Db2f378FdB6892C04D2E",
+      "multisig": "0x855275aC7Ea4cc4F324915b2Eb48839E447E04bD"
     },
     "operator": {
-      "oracle": "0x178E699c9a6bB2Cd624557Fbd85ed219e6faBa77",
-      "relayer": "0x912D7601569cBc2DF8A7f0aaE50BFd18e8C64d05",
+      "oracle": "0xc1A3FEE4132e9285f41F5389570fD9Fbbcb10a1D",
+      "relayer": "0x40C168503B9758540E18A79907F3Fd8678c13f03",
       "warnBalance": 0.01,
     },
     "symbol": "ETH",
@@ -121,12 +121,12 @@ const Chains = [
       "signcribe": "0x57aa601a0377f5ab313c5a955ee874f5d495fc92",
       "relayer": "0x114890eB7386F94eae410186F20968bFAf66142a",
       "ormp": "0x13b2211a7cA45Db2808F6dB05557ce5347e3634e",
-      "oracle": "0xBE01B76AB454aE2497aE43168b1F70C92Ac1C726",
-      "multisig": "0x22117Db68370590c1031f52a6D1aDE3DCe0cCf9a"
+      "oracle": "0xB49E82067a54b3E8c5D9Db2f378FdB6892C04D2E",
+      "multisig": "0x855275aC7Ea4cc4F324915b2Eb48839E447E04bD"
     },
     "operator": {
-      "oracle": "0x178E699c9a6bB2Cd624557Fbd85ed219e6faBa77",
-      "relayer": "0x912D7601569cBc2DF8A7f0aaE50BFd18e8C64d05",
+      "oracle": "0xc1A3FEE4132e9285f41F5389570fD9Fbbcb10a1D",
+      "relayer": "0x40C168503B9758540E18A79907F3Fd8678c13f03",
       "warnBalance": 10,
     },
     "symbol": "GLMR",
@@ -140,12 +140,12 @@ const Chains = [
       "signcribe": "0x57aa601a0377f5ab313c5a955ee874f5d495fc92",
       "relayer": "0x114890eB7386F94eae410186F20968bFAf66142a",
       "ormp": "0x13b2211a7cA45Db2808F6dB05557ce5347e3634e",
-      "oracle": "0xBE01B76AB454aE2497aE43168b1F70C92Ac1C726",
-      "multisig": "0x22117Db68370590c1031f52a6D1aDE3DCe0cCf9a"
+      "oracle": "0xB49E82067a54b3E8c5D9Db2f378FdB6892C04D2E",
+      "multisig": "0x855275aC7Ea4cc4F324915b2Eb48839E447E04bD"
     },
     "operator": {
-      "oracle": "0x178E699c9a6bB2Cd624557Fbd85ed219e6faBa77",
-      "relayer": "0x912D7601569cBc2DF8A7f0aaE50BFd18e8C64d05",
+      "oracle": "0xc1A3FEE4132e9285f41F5389570fD9Fbbcb10a1D",
+      "relayer": "0x40C168503B9758540E18A79907F3Fd8678c13f03",
       "warnBalance": 0.005,
     },
     "symbol": "ETH",
@@ -159,12 +159,12 @@ const Chains = [
       "signcribe": "0x57aa601a0377f5ab313c5a955ee874f5d495fc92",
       "relayer": "0xB607762F43F1A72593715497d4A7dDD754c62a6A",
       "ormp": "0x5C5c383FEbE62F377F8c0eA1de97F2a2Ba102e98",
-      "oracle": "0xD250c974cbe8eEa25Ab75c0Fc9a18D612Ae4b043",
-      "multisig": "0x7D2B4704d72A41817b06df3Bc813161A13550006"
+      "oracle": "0x985BDdbC7E66964f131E3161BA8864f481cBCb2D",
+      "multisig": "0x2cCB8571345D9A13f3A9D792677ab029b945eFb2"
     },
     "operator": {
-      "oracle": "0x178E699c9a6bB2Cd624557Fbd85ed219e6faBa77",
-      "relayer": "0x912D7601569cBc2DF8A7f0aaE50BFd18e8C64d05",
+      "oracle": "0xc1A3FEE4132e9285f41F5389570fD9Fbbcb10a1D",
+      "relayer": "0x40C168503B9758540E18A79907F3Fd8678c13f03",
       "warnBalance": 500,
     },
     "symbol": "TRX",
