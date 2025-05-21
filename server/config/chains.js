@@ -57,6 +57,25 @@ const Chains = [
     "scan": "https://arbiscan.io",
   },
   {
+    "name": "base",
+    "id": 8453,
+    "endpoint": "https://base-rpc.publicnode.com",
+    "contract": {
+      "signcribe": "0x57aa601a0377f5ab313c5a955ee874f5d495fc92",
+      "relayer": "0x114890eB7386F94eae410186F20968bFAf66142a",
+      "ormp": "0x13b2211a7cA45Db2808F6dB05557ce5347e3634e",
+      "oracle": "0xB49E82067a54b3E8c5D9Db2f378FdB6892C04D2E",
+      "multisig": "0x855275aC7Ea4cc4F324915b2Eb48839E447E04bD"
+    },
+    "operator": {
+      "oracle": "0xc1A3FEE4132e9285f41F5389570fD9Fbbcb10a1D",
+      "relayer": "0x40C168503B9758540E18A79907F3Fd8678c13f03",
+      "warnBalance": 0.01,
+    },
+    "symbol": "ETH",
+    "scan": "https://basescan.org",
+  },
+  {
     "name": "ethereum",
     "id": 1,
     "endpoint": "https://ethereum-rpc.publicnode.com",
