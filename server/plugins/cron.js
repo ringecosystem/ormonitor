@@ -301,7 +301,6 @@ export default fp(async (fastify) => {
         const warns = [];
         const ponders = [
             'https://ormponder.darwinia.network/darwinia',
-            'https://ormponder.darwinia.network/crab',
             'https://ormponder.darwinia.network/arbitrum',
             'https://ormponder.darwinia.network/ethereum',
             'https://ormponder.darwinia.network/moonbeam',
